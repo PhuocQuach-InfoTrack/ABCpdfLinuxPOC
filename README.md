@@ -1,6 +1,4 @@
-# ABCpdfLinuxPOC Dockerized Application
 
-This repository contains the Dockerfile and source code for ABCpdfLinuxPOC, a .NET application. The Dockerfile is designed to build and run the application within a Docker container.
 # ABCpdfLinuxPOC Dockerized Application
 
 This repository contains the Dockerfile and source code for ABCpdfLinuxPOC, a .NET application. The Dockerfile is designed to build and run the application within a Docker container.
