@@ -1,0 +1,6 @@
+@ABCpdfLinuxPOC_HostAddress = http://localhost:5101
+
+GET {{ABCpdfLinuxPOC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

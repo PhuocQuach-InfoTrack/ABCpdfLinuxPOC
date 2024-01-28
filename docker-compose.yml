@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  webapp:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Specify the path to your Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"  # Set the environment as needed
+    volumes:
+      - ./app-data:/app/data  # Map a volume for persistent data if needed
