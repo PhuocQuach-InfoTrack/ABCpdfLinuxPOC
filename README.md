@@ -36,3 +36,8 @@ The Dockerfile is divided into several stages:
 
 3. If application started successfully, there will be a PDF file at ./app-data folder
 4. Access the application at http://localhost:8080/swagger/index.html or using HttpClient to reach HTTPPOSt http://localhost:8080/pdf to create pdf from html site (1st page only)
+
+   Some html page links for test:
+   - https://www.w3schools.com/html/html_colors.asp
+   - https://www.google.com/
+   - https://www.google.com/imghp?hl=en&ogbl
